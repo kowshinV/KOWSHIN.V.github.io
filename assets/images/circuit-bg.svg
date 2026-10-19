@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" fill="none" stroke="#00e5ff" stroke-width="1.2" stroke-linecap="square">
+<g opacity=".55">
+<path d="M0 60H90L120 90H210"/><path d="M0 140H60L90 170H180V240"/><path d="M270 0V70L300 100H400L430 130V210"/>
+<path d="M480 90H440"/><path d="M60 480V400L90 370H190L220 340V300"/><path d="M330 480V420L360 390H480"/>
+<path d="M240 200H330L360 230V330H420"/><path d="M0 300H70L100 330V380"/><path d="M150 0V40L180 70"/><path d="M390 0V30"/>
+<path d="M0 420H30"/><path d="M450 270H480"/><path d="M280 300V420"/>
+</g>
+<g fill="#050b16" opacity=".9">
+<circle cx="210" cy="90" r="4"/><circle cx="180" cy="240" r="4"/><circle cx="430" cy="210" r="4"/><circle cx="220" cy="300" r="4"/>
+<circle cx="420" cy="330" r="4"/><circle cx="100" cy="380" r="4"/><circle cx="180" cy="70" r="3"/><circle cx="480" cy="390" r="3"/>
+<circle cx="280" cy="420" r="3"/><circle cx="30" cy="420" r="3"/>
+</g>
+<g opacity=".7"><rect x="236" y="196" width="8" height="8"/><rect x="316" y="46" width="8" height="8"/><rect x="40" y="226" width="8" height="8"/><rect x="396" y="436" width="8" height="8"/></g>
+</svg>
