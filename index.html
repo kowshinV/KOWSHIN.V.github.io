@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kowshin V | VLSI Engineer Trainee &amp; Digital IC Design Portfolio</title>
+    <meta name="description" content="Portfolio of Kowshin V - VLSI Engineer Trainee | RTL Design | Verilog HDL | ASIC Design Flow | Tiny Tapeout | Embedded Systems">
+    <meta name="author" content="Kowshin V">
+    <meta name="theme-color" content="#03070f">
+
+    <!-- Social preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kowshin V | VLSI Engineer Trainee">
+    <meta property="og:description" content="RTL Design, Verilog HDL, ASIC Design Flow, FPGA and Embedded Systems portfolio.">
+    <meta property="og:image" content="assets/images/profile.png">
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Fonts & icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <img src="assets/images/logo.jpeg" alt="Kynowave logo">
+            <h2>KOWSHIN V</h2>
+            <span>INITIALIZING DIE...</span>
+            <div class="loading-bar"><div class="loading-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="bg-circuit"></div>
+    <div id="particles"></div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo" aria-label="Home">
+                <img src="assets/images/logo.jpeg" alt="Kynowave logo">
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <a href="assets/resume/resume.pdf" target="_blank" rel="noopener" class="resume-btn">
+                    <i class="ri-file-download-line"></i> Resume
+                </a>
+                <div class="menu-btn" aria-label="Open menu"><i class="ri-menu-4-line"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    <!-- ======================= HERO ======================= -->
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+            <p class="hero-subtitle">Hello, I'm</p>
+
+            <h1 class="hero-title">KOWSHIN <span>V</span></h1>
+
+            <h2 class="hero-role" id="heroRole" data-roles="VLSI Engineer Trainee|RTL Design Engineer|ASIC Design Flow Enthusiast|Embedded Systems Developer">
+                <span class="role-text">VLSI Engineer Trainee</span><span class="caret"></span>
+            </h2>
+
+            <p class="hero-description">
+                Passionate about <span>RTL Design</span>, <span>ASIC Design Flow</span>,
+                <span>Functional Verification</span>, <span>FPGA Prototyping</span> and
+                <span>Embedded Systems</span>. Building reliable digital hardware while
+                continuously learning modern semiconductor technologies.
+            </p>
+
+            <div class="hero-badges">
+                <div class="badge"><i class="ri-cpu-line"></i> Tiny Tapeout</div>
+                <div class="badge"><i class="ri-code-box-line"></i> RTL Design</div>
+                <div class="badge"><i class="ri-flashlight-line"></i> Verilog HDL</div>
+                <div class="badge"><i class="ri-chip-line"></i> ASIC Flow</div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn"><i class="ri-folder-chart-line"></i> View Projects</a>
+                <a href="assets/resume/resume.pdf" target="_blank" rel="noopener" class="btn secondary-btn"><i class="ri-download-2-line"></i> Resume</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/kowshinV" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/in/kowshin-v-7000702a5/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://youtube.com/@kynowave?si=pHd_WWnsTEkFrhmR" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                <a href="https://www.instagram.com/kynowave?igsh=MXh1czdneWFyMWx4dw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            </div>
+        </div>
+
+        <!-- CHIP SCANNER -->
+        <div class="hero-right">
+            <div class="scanner">
+
+                <div class="scanner-hud">
+                    <span>DIE-ID : KV-2026</span>
+                    <span class="live">Scanning</span>
+                </div>
+
+                <div class="die">
+                    <div class="pins top"></div>
+                    <div class="pins bottom"></div>
+                    <div class="pins left"></div>
+                    <div class="pins right"></div>
+
+                    <div class="die-core">
+                        <img class="die-photo base" src="assets/images/profile.png" alt="Kowshin V">
+                        <div class="xray">
+                            <img class="die-photo" src="assets/images/profile.png" alt="" aria-hidden="true">
+                        </div>
+                        <div class="scan-line" id="scanLine"></div>
+                    </div>
+
+                    <span class="pin1"></span>
+                    <div class="die-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+                </div>
+
+                <div class="scanner-foot">
+                    <span class="scan-status" id="scanStatus">Initializing</span>
+                    <span><b id="scanPct">0</b>%</span>
+                </div>
+                <div class="scan-progress"><i id="scanBar"></i></div>
+
+                <div class="scanner-name">KOWSHIN V<small>RTL &rarr; GDSII</small></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= ABOUT ======================= -->
+    <section class="about section" id="about">
+
+        <div class="section-header">
+            <span class="section-tag">Who am I</span>
+            <h2 class="section-title">About <span>Me</span></h2>
+            <p class="section-subtitle">Designing digital hardware, solving engineering problems and building semiconductor &amp; embedded solutions.</p>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-left">
+                <div class="about-card">
+                    <h3>Digital IC &amp; Embedded Systems Engineer</h3>
+
+                    <p>I am <strong>Kowshin V</strong>, an Electronics &amp; Communication Engineering student and VLSI Design Engineer Trainee with hands-on experience in digital hardware design and embedded systems.</p>
+
+                    <p>My work spans <strong>RTL Design, Functional Verification, ASIC Design Flow, FPGA Development</strong> and embedded projects. Digital IC Design is my primary interest &mdash; I enjoy building reliable hardware with Verilog HDL and modern EDA tools, solving real-world problems and continuously expanding my knowledge of semiconductor technology.</p>
+
+                    <div class="about-divider"></div>
+
+                    <div class="about-highlights">
+                        <div class="highlight"><i class="ri-check-double-line"></i> Digital IC Design</div>
+                        <div class="highlight"><i class="ri-check-double-line"></i> RTL Design &amp; Verification</div>
+                        <div class="highlight"><i class="ri-check-double-line"></i> FPGA Development</div>
+                        <div class="highlight"><i class="ri-check-double-line"></i> ASIC Design Flow</div>
+                        <div class="highlight"><i class="ri-check-double-line"></i> Embedded Systems</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-right">
+                <div class="info-card">
+                    <i class="ri-graduation-cap-line"></i>
+                    <h4>Education</h4>
+                    <p>B.E. Electronics &amp; Communication Engineering</p>
+                </div>
+                <div class="info-card">
+                    <i class="ri-building-4-line"></i>
+                    <h4>Current Role</h4>
+                    <p>VLSI Engineer Trainee</p>
+                </div>
+                <div class="info-card">
+                    <i class="ri-map-pin-line"></i>
+                    <h4>Location</h4>
+                    <p>Tamil Nadu, India</p>
+                </div>
+                <div class="info-card">
+                    <i class="ri-rocket-line"></i>
+                    <h4>Career Goal</h4>
+                    <p>RTL Design &amp; ASIC Design Engineer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-stats">
+            <div class="stat-card"><h2 data-count="10" data-suffix="+">10+</h2><p>Technical Projects</p></div>
+            <div class="stat-card"><h2 data-count="20" data-suffix="+">20+</h2><p>Certifications</p></div>
+            <div class="stat-card"><h2 data-count="2">2</h2><p>Professional Internships</p></div>
+            <div class="stat-card"><h2 data-count="1">1</h2><p>Hackathon Winner</p></div>
+        </div>
+    </section>
+
+    <!-- ======================= SKILLS ======================= -->
+    <section class="skills section" id="skills">
+
+        <div class="section-header">
+            <span class="section-tag">My Expertise</span>
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            <p class="section-subtitle">Languages, methodologies and EDA tools I use to design digital hardware and embedded solutions.</p>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-category">
+                <div class="category-header"><i class="ri-cpu-line"></i><h3>VLSI Design</h3></div>
+                <div class="skill-tags">
+                    <span>Verilog HDL</span><span>RTL Design</span><span>RTL Verification</span><span>ASIC Design Flow</span>
+                    <span>Functional Verification</span><span>CDC</span><span>RDC</span><span>SpyGlass</span><span>LEC</span><span>GLS</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header"><i class="ri-tools-line"></i><h3>EDA Tools</h3></div>
+                <div class="skill-tags">
+                    <span>Cadence Genus</span><span>Innovus</span><span>SimVision</span><span>Conformal</span>
+                    <span>Synopsys SpyGlass</span><span>Design Compiler</span><span>VCS</span><span>Xilinx Vivado</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header"><i class="ri-circuit-board-line"></i><h3>Embedded Systems</h3></div>
+                <div class="skill-tags">
+                    <span>Embedded C</span><span>Arduino</span><span>ESP32</span><span>GPIO</span><span>UART</span>
+                    <span>SPI</span><span>I2C</span><span>Sensor Interfacing</span><span>IoT</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header"><i class="ri-code-s-slash-line"></i><h3>Programming &amp; Fundamentals</h3></div>
+                <div class="skill-tags">
+                    <span>C Programming</span><span>Embedded C</span><span>Python</span><span>Problem Solving</span>
+                    <span>Digital Electronics</span><span>FPGA Prototyping</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= EXPERIENCE ======================= -->
+    <section class="experience section" id="experience">
+
+        <div class="section-header">
+            <span class="section-tag">My Journey</span>
+            <h2 class="section-title">Professional <span>Experience</span></h2>
+            <p class="section-subtitle">From industrial electronics to professional VLSI design.</p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Jul 2026 &ndash; Present</span>
+                    <h3>VLSI Engineer Trainee</h3>
+                    <h4>Angstromers Technologies &bull; Bangalore</h4>
+                    <p>Working on the complete ASIC design flow and Digital IC Design using industry-standard EDA tools.</p>
+                    <div class="timeline-tags">
+                        <span>RTL Design</span><span>Verilog HDL</span><span>SpyGlass</span><span>CDC</span><span>RDC</span>
+                        <span>RTL Verification</span><span>Cadence Genus</span><span>Innovus</span><span>LEC</span><span>GLS</span><span>Tiny Tapeout</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Aug 2025</span>
+                    <h3>Electronics &amp; Control Intern</h3>
+                    <h4>NLC India Limited</h4>
+                    <p>Gained industrial exposure to power plant instrumentation, automation systems and electronic control technologies.</p>
+                    <div class="timeline-tags">
+                        <span>SCADA</span><span>DCS</span><span>Industrial Automation</span><span>Instrumentation</span>
+                        <span>Control Systems</span><span>Thermal Power Plant</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023 &ndash; Present</span>
+                    <h3>B.E. Electronics &amp; Communication Engineering</h3>
+                    <h4>Hindusthan College of Engineering &amp; Technology</h4>
+                    <p>Building strong foundations in Digital Electronics, VLSI Design, Embedded Systems, Communication Systems and FPGA Design.</p>
+                    <div class="timeline-tags">
+                        <span>Digital Electronics</span><span>VLSI</span><span>Embedded Systems</span><span>FPGA</span><span>IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= FEATURED PROJECT ======================= -->
+    <section class="featured-project section" id="projects">
+
+        <div class="section-header">
+            <span class="section-tag">Featured Project</span>
+            <h2 class="section-title">Approximate Tensor Processing Unit <span>(APTPU)</span></h2>
+            <p class="section-subtitle">Tiny Tapeout ASIC implementation &mdash; RTL to GDSII.</p>
+        </div>
+
+        <div class="featured-container">
+
+            <div class="featured-left">
+                <img src="assets/projects/aptpu/tp.png" alt="APTPU final layout">
+            </div>
+
+            <div class="featured-right">
+                <div class="featured-badge"><i class="ri-medal-line"></i> Completed the full RTL-to-GDSII ASIC flow</div>
+
+                <h3>Approximate Tensor Processing Unit</h3>
+
+                <p>Designed and implemented a <strong>12&times;12 Approximate Processing Element (APE) Systolic Array</strong> in Verilog HDL. Completed the full ASIC flow &mdash; verification, synthesis, physical design and timing verification &mdash; for a Tiny Tapeout-ready implementation.</p>
+
+                <div class="tech-stack">
+                    <span>Verilog HDL</span><span>RTL Design</span><span>Tiny Tapeout</span><span>SpyGlass</span><span>CDC</span><span>RDC</span>
+                    <span>Cadence Genus</span><span>Innovus</span><span>Conformal LEC</span><span>Gate Level Simulation</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="assets/projects/aptpu/report.pdf" target="_blank" rel="noopener" class="project-btn"><i class="ri-file-text-line"></i> View Report</a>
+                    <a href="https://github.com/kowshinV/APTPU-ASIC-Implementation" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="ri-github-fill"></i> View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ASIC FLOW -->
+        <div class="asic-flow">
+            <div class="flow-box" data-image="assets/projects/aptpu/waveform.png">Verification</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/syntheticrpt.png">Synthesis</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/lec.png">LEC</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/w.png">GLS</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/fp.png">Floor Planning</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/pp.png">Power Planning</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/placement.png">Placement</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/cts.png">CTS</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/route.png">Routing</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box" data-image="assets/projects/aptpu/timing.png">Timing Analysis</div>
+            <div class="flow-arrow">&rarr;</div>
+            <div class="flow-box tapeout" data-image="assets/projects/aptpu/tp.png">Tapeout</div>
+        </div>
+
+        <!-- IMAGE POPUP -->
+        <div class="flow-modal" id="flowModal">
+            <div class="flow-modal-content">
+                <button class="flow-modal-close" id="flowModalClose" aria-label="Close">&times;</button>
+                <img id="flowModalImage" src="" alt="Project result">
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= VLSI PROJECTS ======================= -->
+    <section class="projects section" id="vlsi-projects">
+
+        <div class="section-header">
+            <span class="section-tag">Digital IC Design</span>
+            <h2 class="section-title">Other <span>VLSI Projects</span></h2>
+            <p class="section-subtitle">RTL design, FPGA prototyping and digital hardware implementations built with Verilog HDL.</p>
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="assets/projects/uart/uart2.png" alt="UART project" loading="lazy">
+                <div class="project-content">
+                    <h3>UART Transmitter &amp; Receiver</h3>
+                    <p>FSM-based UART transmitter and receiver in Verilog HDL, taken through RTL design, functional verification and FPGA implementation.</p>
+                    <div class="project-tags"><span>Verilog HDL</span><span>RTL</span><span>Synopsys VCS</span></div>
+                    <div class="project-buttons">
+                        <div class="flow-box project-btn" data-image="assets/projects/uart/report.png">Functional Verification</div>
+                        <a href="https://github.com/kowshinV/UART-Controller-RTL-Design-using-Verilog-HDL" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="ri-github-fill"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/projects/single-port-ram/spr.png" alt="Single port RAM" loading="lazy">
+                <div class="project-content">
+                    <h3>Single Port RAM</h3>
+                    <p>Parameterized single-port RAM in Verilog HDL with simulation, synthesis and timing verification using Synopsys VCS.</p>
+                    <div class="project-tags"><span>Verilog HDL</span><span>Memory Design</span><span>RTL</span><span>Synopsys VCS</span></div>
+                    <div class="project-buttons">
+                        <div class="flow-box project-btn" data-image="assets/projects/single-port-ram/spr_w.png">Functional Verification</div>
+                        <a href="https://github.com/kowshinV/Single-Port-RAM-Design-using-Verilog-HDL" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="ri-github-fill"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= EMBEDDED PROJECTS ======================= -->
+    <section class="projects section" id="embedded-projects">
+
+        <div class="section-header">
+            <span class="section-tag">Embedded Systems</span>
+            <h2 class="section-title">Embedded <span>Projects</span></h2>
+            <p class="section-subtitle">Hardware prototypes combining embedded programming, sensors and communication interfaces.</p>
+        </div>
+
+        <div class="project-grid embedded-project-grid">
+
+            <div class="project-card">
+                <img src="assets/projects/smart-geo-fence/sgf.png" alt="Smart geo-fence" loading="lazy">
+                <div class="project-content">
+                    <h3>Smart Geo-Fence Alert for Fishermen</h3>
+                    <p>GPS-based maritime boundary monitoring system with GSM alerts for fisherman safety.</p>
+                    <div class="project-tags"><span>Arduino</span><span>GPS</span><span>GSM</span><span>Embedded C</span></div>
+                    <a href="https://github.com/kowshinV/Smart-Geo-Fence-Alert-for-Fisherman" target="_blank" rel="noopener noreferrer" class="project-btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/projects/smart-health-monitoring/shm.png" alt="Smart health monitoring" loading="lazy">
+                <div class="project-content">
+                    <h3>Smart Health Monitoring System</h3>
+                    <p>IoT-based patient monitoring using sensors and wireless communication.</p>
+                    <div class="project-tags"><span>ESP32</span><span>IoT</span><span>Sensors</span></div>
+                    <a href="https://github.com/kowshinV/Smart-Health-Monitoring-System" target="_blank" rel="noopener noreferrer" class="project-btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/projects/bluetooth-rc-car/rcc.png" alt="Bluetooth RC car" loading="lazy">
+                <div class="project-content">
+                    <h3>Bluetooth Controlled RC Car</h3>
+                    <p>Mobile-controlled robotic vehicle built on Bluetooth communication.</p>
+                    <div class="project-tags"><span>Arduino</span><span>Bluetooth</span><span>Embedded C</span></div>
+                    <a href="https://github.com/kowshinV/Bluetooth-Controlled-RC-Car-using-Arduino-UNO" target="_blank" rel="noopener noreferrer" class="project-btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/projects/ros-code-checker/ros.png" alt="ROS code checker" loading="lazy">
+                <div class="project-content">
+                    <h3>ROS Code Checker</h3>
+                    <p>Software utility for validating and checking ROS-based code modules.</p>
+                    <div class="project-tags"><span>Python</span><span>ROS</span></div>
+                    <a href="https://github.com/kowshinV/ROS-CODE-CHECKER" target="_blank" rel="noopener noreferrer" class="project-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= ACHIEVEMENTS ======================= -->
+    <section class="achievements section" id="achievements">
+
+        <div class="section-header">
+            <span class="section-tag">Proud Moments</span>
+            <h2 class="section-title">My <span>Achievements</span></h2>
+            <p class="section-subtitle">Milestones from my technical journey, innovation and continuous learning.</p>
+        </div>
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card">
+                <div class="achievement-icon"><i class="ri-trophy-line"></i></div>
+                <h3>Hackathon Winner</h3>
+                <p>Winner of the IVTon &ndash; Urbanisation &amp; Smart Cities Track at graVITas, VIT Vellore.</p>
+                <a href="assets/achievements/hackathon-winner.jpg" target="_blank" rel="noopener" class="achievement-btn">View Certificate</a>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon"><i class="ri-cpu-line"></i></div>
+                <h3>Tiny Tapeout ASIC</h3>
+                <p>Completed the RTL-to-GDSII ASIC design flow for the APTPU project and achieved a tapeout-ready implementation.</p>
+                <a href="https://github.com/kowshinV/APTPU-ASIC-Implementation" target="_blank" rel="noopener noreferrer" class="achievement-btn">View Project</a>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon"><i class="ri-youtube-line"></i></div>
+                <h3>Tech Content Creator</h3>
+                <p>Sharing my engineering journey, VLSI learning, embedded projects and technology content through Kynowave.</p>
+                <a href="https://www.youtube.com/@kynowave" target="_blank" rel="noopener noreferrer" class="achievement-btn">View Content</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= CERTIFICATES ======================= -->
+    <section class="certificates section" id="certificates">
+
+        <div class="section-header">
+            <span class="section-tag">Continuous Learning</span>
+            <h2 class="section-title">My <span>Certifications</span></h2>
+            <p class="section-subtitle">Certifications, workshops and technical programs completed throughout my engineering journey.</p>
+        </div>
+
+        <h3 class="certificate-category"><i class="ri-briefcase-4-line"></i> Internship Certificates</h3>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <img src="assets/certificates/vlsitb.png" alt="VLSI Design Engineer Trainee certificate" loading="lazy">
+                <div class="certificate-content">
+                    <h4>VLSI Design Engineer Trainee</h4>
+                    <p>Angstromers Technologies &ndash; Bengaluru, Karnataka</p>
+                    <div class="flow-box project-btn" data-image="assets/certificates/angs.jpg">View Certificate</div>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="assets/certificates/ecnlc.png" alt="NLC India internship certificate" loading="lazy">
+                <div class="certificate-content">
+                    <h4>Electronics &amp; Control Engineering Intern</h4>
+                    <p>NLC India Limited &ndash; Neyveli, Tamil Nadu</p>
+                    <div class="flow-box project-btn" data-image="assets/certificates/nlc.jpg">View Certificate</div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="certificate-category"><i class="ri-medal-2-line"></i> Course Completion Certificates</h3>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <img src="assets/certificates/ai-programming-data/aieng.png" alt="Engineering and Technology certificates" loading="lazy">
+                <div class="certificate-content">
+                    <h4>Engineering &amp; Technology</h4>
+                    <p>Course Completion</p>
+                    <a href="engineering-certificates.html" target="_blank" class="certificate-btn">View Certificates</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="assets/certificates/engineering-technology/aipd.png" alt="AI and Programming certificates" loading="lazy">
+                <div class="certificate-content">
+                    <h4>AI &amp; Programming Technologies</h4>
+                    <p>Course Completion</p>
+                    <a href="ai-certificates.html" target="_blank" class="certificate-btn">View Certificates</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="assets/certificates/professional-digital/pdsk.png" alt="Professional and Digital Skills certificates" loading="lazy">
+                <div class="certificate-content">
+                    <h4>Professional &amp; Digital Skills</h4>
+                    <p>Course Completion</p>
+                    <a href="professional-certificates.html" target="_blank" class="certificate-btn">View Certificates</a>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="certificate-category"><i class="ri-team-line"></i> Participation Certificates</h3>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <img src="assets/certificates/tep.png" alt="Technical events certificates" loading="lazy">
+                <div class="certificate-content">
+                    <h4>Technical Events</h4>
+                    <p>Competitions &amp; Technical Events</p>
+                    <a href="technical-event.html" target="_blank" class="certificate-btn">View Certificates</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="assets/certificates/twp.png" alt="Technical workshop certificates" loading="lazy">
+                <div class="certificate-content">
+                    <h4>Technical Workshops</h4>
+                    <p>Workshops &amp; Technical Training</p>
+                    <a href="technical-workshop.html" target="_blank" class="certificate-btn">View Certificates</a>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="certificate-category"><i class="ri-graduation-cap-line"></i> NPTEL Certificates</h3>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <img src="assets/certificates/nptellc.png" alt="NPTEL certificates" loading="lazy">
+                <div class="certificate-content">
+                    <h4>NPTEL Online Certification</h4>
+                    <p>By IIT Kharagpur</p>
+                    <a href="nptel-certificates.html" target="_blank" class="certificate-btn">View All Certificates</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= CONTENT CREATION ======================= -->
+    <section class="content section" id="content">
+
+        <div class="section-header">
+            <span class="section-tag">Personal Brand</span>
+            <h2 class="section-title">Kynowave <span>Tech Content</span></h2>
+            <p class="section-subtitle">Beyond engineering, I share my learning journey, technical knowledge and project experiences to help students and aspiring engineers.</p>
+        </div>
+
+        <div class="content-container">
+
+            <div class="content-left">
+                <img src="assets/images/logo.jpeg" alt="Kynowave logo" class="content-logo">
+                <h3>KYNOWAVE</h3>
+                <p>ENGINEERING &bull; VLSI &bull; EMBEDDED &bull; TECH &bull; LIFESTYLE</p>
+
+                <div class="social-buttons">
+                    <a href="https://youtube.com/@kynowave?si=pHd_WWnsTEkFrhmR" target="_blank" rel="noopener noreferrer" class="social-btn youtube"><i class="ri-youtube-fill"></i> YouTube</a>
+                    <a href="https://www.instagram.com/kynowave?igsh=MXh1czdneWFyMWx4dw==" target="_blank" rel="noopener noreferrer" class="social-btn instagram"><i class="ri-instagram-line"></i> Instagram</a>
+                    <a href="https://www.linkedin.com/in/kowshin-v-7000702a5/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin"><i class="ri-linkedin-box-fill"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <a href="https://youtube.com/shorts/NTbYXML03Gc?si=mezOlmX7s44QwbH5" target="_blank" rel="noopener noreferrer" class="content-card-link">
+                    <div class="content-card">
+                        <img src="assets/social/bang.jpg" alt="VLSI learning journey" loading="lazy">
+                        <div class="content-info">
+                            <h4>VLSI Learning Journey</h4>
+                            <p>Moments from my everyday learning journey, experiences and life as an engineering student.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://youtube.com/shorts/GLCepRnEw8A?si=_75gUHoEkJtbqN0d" target="_blank" rel="noopener noreferrer" class="content-card-link">
+                    <div class="content-card">
+                        <img src="assets/social/sea.jpg" alt="Sea vlog" loading="lazy">
+                        <div class="content-info">
+                            <h4>Sea Vlog</h4>
+                            <p>Exploring the sea, travel experiences, beautiful moments and memorable journeys.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= CONTACT ======================= -->
+    <section class="contact section" id="contact">
+
+        <div class="section-header">
+            <span class="section-tag">Get in Touch</span>
+            <h2 class="section-title">Let's <span>Connect</span></h2>
+            <p class="section-subtitle">Open to internships, full-time opportunities, collaborations and technical discussions in VLSI Design and Embedded Systems.</p>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-left">
+                <h3>Ready to Build the Future of Silicon</h3>
+                <p>Whether you are a recruiter, engineer, student or collaborator, I'd love to connect and discuss innovative semiconductor and embedded technologies.</p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="ri-map-pin-line"></i>
+                        <div><h4>Location</h4><p>Mayiladuthurai, Tamil Nadu, India</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="ri-mail-line"></i>
+                        <div><h4>Email</h4><p><a href="mailto:kowshin0126@gmail.com">kowshin0126@gmail.com</a></p></div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="ri-phone-line"></i>
+                        <div><h4>Phone</h4><p><a href="tel:+917639056429">+91 76390 56429</a></p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <h3>Connect With Me</h3>
+
+                <div class="contact-social">
+                    <a href="https://github.com/kowshinV" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/kowshin-v-7000702a5/" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-box-fill"></i> LinkedIn</a>
+                    <a href="https://youtube.com/@kynowave?si=pHd_WWnsTEkFrhmR" target="_blank" rel="noopener noreferrer"><i class="ri-youtube-fill"></i> YouTube</a>
+                    <a href="https://www.instagram.com/kynowave?igsh=MXh1czdneWFyMWx4dw==" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-line"></i> Instagram</a>
+                </div>
+
+                <a href="assets/resume/resume.pdf" target="_blank" rel="noopener" class="contact-resume"><i class="ri-download-cloud-2-line"></i> Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- BACK TO TOP -->
+    <a href="#home" class="scroll-top" id="scrollTop" aria-label="Back to top"><i class="ri-arrow-up-line"></i></a>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-left">
+                <img src="assets/images/profile.png" alt="Kowshin V" class="footer-logo">
+                <h3>KOWSHIN V</h3>
+                <p>Aspiring VLSI &amp; Embedded Systems Engineer</p>
+                <p>Passionate about Digital IC Design, ASIC Design Flow, FPGA Development and Embedded Systems.</p>
+            </div>
+
+            <div class="footer-center">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <h4>Connect</h4>
+                <div class="footer-social">
+                    <a href="https://github.com/kowshinV" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/kowshin-v-7000702a5/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://youtube.com/@kynowave?si=pHd_WWnsTEkFrhmR" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                    <a href="https://www.instagram.com/kynowave?igsh=MXh1czdneWFyMWx4dw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                    <a href="mailto:kowshin0126@gmail.com" aria-label="Email"><i class="ri-mail-fill"></i></a>
+                </div>
+                <a href="assets/resume/resume.pdf" target="_blank" rel="noopener" class="footer-resume">Download Resume</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>Kowshin V</strong>. All rights reserved.</p>
+            <p>Designed &amp; developed with <i class="ri-heart-fill"></i> by Kowshin V</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
